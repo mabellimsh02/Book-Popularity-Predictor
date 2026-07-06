@@ -41,6 +41,16 @@ report for both models, and saves four plots:
 - `category_breakdown.png` - book counts for the top 15 genres
 - `confusion_matrix.png` - tuned Random Forest predictions vs. actuals
 - `feature_importance.png` - top 20 features driving the Random Forest
+## Project Structure
+
+```
+Book-Popularity-Predictor/
+├── get_data.py              # Downloads the dataset into data/books.csv
+├── popularity_predictor.py  # Builds the label, trains/evaluates both models, and saves plots
+├── requirements.txt         # Python dependencies
+├── .gitignore
+└── data/books.csv           # Created by get_data.py (not committed to the repo)
+```
 
 ## Defining "popularity"
 
