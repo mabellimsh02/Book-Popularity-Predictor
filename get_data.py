@@ -1,9 +1,9 @@
 """
-INTRO (plain English)
-----------------------
-This script's only job is to fetch the book dataset we train on and save
-it to disk, so we don't have to hit the internet every time we run the
-real project script.
+Overview
+--------
+This script fetches the book dataset we train on and saves it to disk, so
+we don't have to hit the internet every time we run the real project
+script.
 
 The data comes from a public copy of Kaggle's "7k Books with Metadata"
 dataset: ~5,200 books, each with a title, author, genre, description,

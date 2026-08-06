@@ -1,6 +1,6 @@
 # Book Popularity Predictor
 
-## What this project does (in plain English)
+## What this project does
 
 We want to guess whether a book will be "popular" - meaning lots of people
 read and rated it - just from information you'd see on its listing page:
@@ -41,6 +41,7 @@ report for both models, and saves four plots:
 - `category_breakdown.png` - book counts for the top 15 genres
 - `confusion_matrix.png` - tuned Random Forest predictions vs. actuals
 - `feature_importance.png` - top 20 features driving the Random Forest
+
 ## Project Structure
 
 ```

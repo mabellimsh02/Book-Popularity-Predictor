@@ -1,6 +1,6 @@
 """
-INTRO (plain English)
-----------------------
+Overview
+--------
 The goal: guess whether a book will be "popular" just from its metadata -
 things like its genre, its average rating, how long its description is,
 and how many other books its author has written. We never look at sales
